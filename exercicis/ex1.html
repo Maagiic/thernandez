@@ -1,12 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercici 1</title>
+    <link href="ex2.css" rel="stylesheet" type="text/css">
+    <title>Compra de Coches</title>
 </head>
 <body>
-    <H1>Exercici 1</H1>
+    <header>
+        <img src="coche.jpg"="Imagen de coche" id="imagen-coche">
+
+        <center><b><h1 id="tit">BLYSSED CARS</h1></b></center>
+        <nav id="menu-principal">
+            <ul>
+                <li><a href="#">Inici</a></li>
+                <li><a href="#">Productes</a></li>
+                <li><a href="#">Serveis</a></li>
+                <li><a href="#">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <article class="casalloguer">
+            <h1>Casa lloguer 1</h1>
+            <img src="coches/coches2.png" alt="coche2"class="coches">
+            <p class="precio">250.000 €</p>
+            <a href="#"></a>
+        </article>
+        <article class="casalloguer">
+            <h1>Audi A6</h1>
+            <img src="coches/a6.png" alt="a6"class="coches">
+            <p class="precio">100.000 €</p>
+
+            <a href="#"></a>
+        </article>
+        <article class="casalloguer">
+            <h1>BMW I8</h1>
+            <img src="coches/i8.png" alt="i8"class="coches">
+            <p class="precio">180.000 €</p>
+            <a href="#"></a>
+        </article>
+        <article class="casalloguer">
+            <h1>Toyota Supra</h1>
+            <img src="coches/supra.png" alt="supra"class="coches">
+            <p class="precio">150.000 €</p>
+            <a href="#"></a>
+        </article>
+        <article class="casalloguer">
+            <h1>Seat Ibiza FR</h1>
+           <img src="coches/seat.png" alt="seat"class="coches">
+           <p class="precio">65.000 €</p>
+            <a href="#"></a>
+        </article>
+        <article class="casalloguer">
+            <h1>Ferrari</h1>
+            <img src="coches/ferrari.png" alt="ferrari"class="coches">
+            <p class="precio">350.000 €</p>
+            <a href="#"></a>
+        </article>
+        </section>
+    <div class="formulari">
+        <form method="post" action="https://result.php">
+        <br>
+        <label>Nom:</label>
+        <input type="text" />
+        <br>
+        <label>Cognom:</label>
+        <input type="text" />
+        <br>
+        <label>Assumpte:</label>
+        <input type="text" />
+        <br>
+        <br>
+        <label>Pais</label>
+        <select>
+        <option>Spain</option>
+        <option>Colombia</option>
+        </select>
+        <br>
+        <label>Missatge:</label>
+        <textarea>Area de text</textarea>
+        <input class="boton_enviar" type="button" value = "enviar">
+        </form>
+    </div>
+    
+
+    <footer>
+    <div id="redes-sociales">
+        <a href="https://www.tiktok.com/" target="_blank"><img src="redes/tiktok.png" alt="TikTok"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="redes/instagram.png" alt="Instagram"></a >
+            <a href="https://www.x.com/" target="_blank"><img src="redes/twwiter.png" alt="Twitter"></a >
+
+    </div>
+    </footer>
 </body>
 </html>

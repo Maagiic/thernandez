@@ -1,0 +1,112 @@
+a {
+    color:rgb(244, 243, 243);
+    }
+    #tit {
+    color: rgb(246, 241, 241);
+    }
+
+    body {
+        background-color: #333; /* Gris oscuro */
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #000; /* Negro */
+        color: #fff; /* Blanco */
+        text-align: center;
+        padding: 10px;
+    }
+    
+    #menu-principal {
+        background-color: #030303; /* Gris oscuro */
+        color: #fff; /* Blanco */
+        border: 2px solid #060606;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    #menu-principal li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    
+    .casalloguer {
+        background: linear-gradient(to bottom, rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%);
+        color: #f4f0f0; /* Blanco */
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+        width: 25%;
+        opacity: 0.5;
+        border-radius: 20px;
+        box-shadow: 3px 3px 10px #060606;
+        text-align: center;
+    }
+    
+    footer {
+        background-color: #333; /* Gris oscuro */
+        color: #fff; /* Blanco */
+        text-align: center;
+        padding: 10px;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    video {
+        width: 300px;
+    }
+
+    #imagen-coche {
+        width: 30%; /* Ajusta el ancho según sea necesario */
+        max-height: 150px; /* Ajusta la altura máxima según sea necesario */
+        object-fit: cover; /* Ajusta para cubrir completamente el contenedor */
+    }
+    
+    .formulari {
+        
+        background: linear-gradient(to bottom, rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%);
+        color: #f4f0f0; /* Blanco */
+        border: 2px solid black;
+        width: 25%;
+        margin: auto;
+        opacity: 0.5;
+        border-radius: 20px;
+        box-shadow: 3px 3px 10px #060606;
+    }
+
+    .coches {
+        width: 100%; 
+        max-height: 150px; 
+        object-fit: cover;
+    }
+    .precio{
+        font-size:50px;
+        color: #ececee;
+       
+    }
+    #redes-sociales {
+        text-align: center;
+        margin-top: 20px; 
+    }
+    
+    #redes-sociales img {
+        width: 70px; 
+    }
+    
+    label {
+    margin-left: 10px;
+    padding: 5px;
+    }
+    input {
+        margin: 10px;
+        padding: 3px;
+        }
